@@ -7,7 +7,6 @@ import bellImage from "../../assets/iconBell.png";
 import "./Headbar.css";
 const Headbar = () => {
   const fitSize = useFitSize();
-  console.log(fitSize);
   return (
     <>
       <div className="app-container">

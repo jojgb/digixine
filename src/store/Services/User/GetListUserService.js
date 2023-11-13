@@ -21,7 +21,6 @@ export const getListUser = createAsyncThunk(
         result.response = response.data;
       }
     } catch (error) {
-        console.log(error)
       if (error.response) {
         result.response = error.response;
       } else {
