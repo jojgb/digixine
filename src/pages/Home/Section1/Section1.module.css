@@ -1,0 +1,25 @@
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .column {
+    flex: 1;
+    margin-right: 20px; 
+  }
+  
+  .title {
+    /* font-size: 1.5rem; */
+    color: #8b919e;
+  }
+  
+  .secondtitle {
+    /* font-size: 2rem; */
+    color: #8b919e;
+  }
